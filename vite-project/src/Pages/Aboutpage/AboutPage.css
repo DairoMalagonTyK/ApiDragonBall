@@ -1,0 +1,51 @@
+
+#character-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.character-info {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    margin-top: 20px; 
+}
+
+.image-container {
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+.description {
+    color: black;
+    font-size: 30px;
+    max-width: 500px;
+    margin-left: 20px; 
+    text-align: justify; 
+    margin-top: 15px;
+}
+
+#title-character {
+    color: #1a237e; 
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+#title-character:hover {
+    color: #ffc107; 
+    transform: scale(1.1); 
+}
+
+.MuiTypography-body2 {
+    text-align: justify; 
+    color: #333; 
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 0 10px;
+}

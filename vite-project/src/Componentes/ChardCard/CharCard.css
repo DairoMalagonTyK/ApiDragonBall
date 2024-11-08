@@ -1,0 +1,23 @@
+
+.image-background {
+    background-color: #fac343; 
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character-image {
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .character-image {
+    transform: scale(1.1); 
+}

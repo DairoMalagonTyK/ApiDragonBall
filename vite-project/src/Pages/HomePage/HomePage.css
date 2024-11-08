@@ -1,0 +1,32 @@
+#home-page{
+    background-color: #ff7f00;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-top: 40px;   
+}
+
+#characters{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+#home-title {
+    color: #FFC107; 
+    transition: color 0.3s; 
+    font-size: 100px;
+    margin-bottom: -50px;
+}
+
+#home-title:hover {
+    color: #F44336; 
+}
+
+#characters a {
+    text-decoration: none;
+    color: inherit; 
+}

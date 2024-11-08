@@ -1,0 +1,26 @@
+header {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xdcgTIOzOHmDwlgB8cu9fJwULchtFCJY4g&s");
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff7f00; 
+    min-height: 300px;
+    padding: 20px 0; 
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+}
+
+#logo-header {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    object-fit: cover; 
+}
+
+#titulo {
+    color: #FFD700;
+}
